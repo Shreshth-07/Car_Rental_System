@@ -1,0 +1,96 @@
+/* Reset and basic styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Header styles */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+
+/* Cars section styles */
+
+.cars-section {
+    padding: 2rem;
+    flex: 1;
+}
+
+.cars-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    padding: 2rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cars-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.rented-cars-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rented-cars-table th,
+.rented-cars-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.rented-cars-table th {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+.rented-cars-table td {
+    font-size: 0.9rem;
+}
+
+
+/* Footer styles */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
